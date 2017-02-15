@@ -1,0 +1,179 @@
+*{margin:0; padding:0; font-size:100%; font-weight:normal; vertical-align:baseline; background:transparent; border:none;}
+
+/* - - - - - */
+
+body{
+    background: white;
+    color: black;
+    text-align: center;
+    font-family: "Noto Sans Japanese", sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+/* - - - - - */
+
+h1, h2, h3, p, li, th, td, a{
+    font-weight: 200;
+}
+
+h1{
+    font-size: 180%;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 160%;
+    font-weight: bold;
+}
+
+p{
+    font-size: 100%;
+}
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: gray;
+}
+
+img {
+   vertical-align: bottom;
+}
+
+header {
+    height: 960px;
+    background-image: url("img/Nebulae_960.png");
+    background-size: cover;
+}
+
+section {
+    height: 680px
+}
+
+footer{
+    background: lightgray;
+    padding: 40px 0;
+}
+
+/* - - - - - */
+
+.color_white, .color_white a:link, .color_white a:visited {
+    color: white;
+}
+
+.color_white a:hover {
+    color: lightgray;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.small {
+    font-size: 70%;
+    line-height: 1.6em;
+}
+
+.flex_box{
+    display: flex; /*flexコンテナ*/
+    justify-content: center; /*左右中央*/
+    align-items: center; /*上下中央*/
+    height: 640px;
+}
+
+.flex_box img{
+     width: 480px;
+}
+
+.box_h920{
+    height: 920px;
+}
+
+.margin_b20px {
+    margin-bottom: 20px;
+}
+
+.margin_b40px {
+    margin-bottom: 40px;
+}
+
+.line_box {
+	display: block;
+	width: 146px;
+    border: 2px solid white;
+    font-size: 140%;
+    color: white;
+    padding: 0.4em 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button {
+	display: block;
+	width: 150px;
+    border: 0;
+    font-size: 140%;
+    padding: 0.4em 0;
+	text-align: center;
+    margin: 0 auto;
+	background-color: white;
+	text-decoration: none;
+}
+
+.button:hover {
+    color: white;
+    background-color: #2d3a59;
+}
+
+.button::before, .button::after {
+	position: absolute;
+	z-index: -1;
+	display: block;
+	content: '';
+}
+.button, .button::before, .button::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .2s;
+	transition: all .2s;
+}
+
+.sns_button {
+    display: inline;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.credit_fl_r{
+    float: right;
+    margin-right: 1.6em;
+}
+
+/* - - - - - */
+
+#container{
+    padding: 0;
+    margin: 0 auto;
+}
+
+#sec_1 {
+    background: lightgray;
+}
+#sec_2{
+    background-image: url("img/lake_powell_and_grand_staircaseescalante_960.png");
+    background-size: cover;
+}
+#sec_3{
+    background-image: url("img/htv6_cargo_craft_960.png");
+    background-size: cover;
+}
+#sec_4{
+    background-image: url("img/strait_of_gibraltar_960.png");
+    background-size: cover;
+}
