@@ -1,4 +1,4 @@
-#Isaax Font
+#Isaax Font (v.0.1.0)
 
 license: SIL OFL 1.1
 
