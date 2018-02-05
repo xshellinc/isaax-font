@@ -5,7 +5,7 @@ Isaax Font はアポロ計画やスペースシャトル計画など20世紀後�
 ## 内容
 
 - Isaax Origin (v.0.2.1)
-- Isaax Sans - Regular (v.0.1.0)
+- Isaax Sans - Regular (v.0.1.1)
 
 Isaax Sans は ASCII 文字セットに対応
 
